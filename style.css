@@ -1,0 +1,203 @@
+/*----------------------------------
+
+共通
+
+-------------------------------------*/
+body {
+  font-family: 'Lato', sans-serif;
+}
+.text {
+  font-family: sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bolder;
+}
+
+
+/*---------------------------------
+
+
+header
+
+------------------------------------*/
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  font-size: 30px;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+}
+
+li{
+  padding: 16px;
+  text-align: center;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width: 768px){
+  h1 {
+    padding: 16px;
+  }
+
+
+
+  .header_menu {
+    width: 100%;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    width: 50%;
+    border: 1px solid #d8d8d8
+  }
+}
+/*-----------------------------------
+
+about
+
+-------------------------------------*/
+.about_area {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.about_area-img {
+  width: 50%;
+}
+.about_area-description {
+  width: 50%;
+  padding: 16px;
+}
+p {
+  text-align: justify;
+  line-height: 2;
+  font-size: 20px;
+}
+.about_area-description-icon {
+  text-align: center;
+  padding-top: 16px;
+
+}
+.fa-instagram {
+  color: #d93177;
+  font-size: 50px;
+  opacity: 0.8;
+}
+.fa-instagram :hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 768px){
+  
+  .about_area-img {
+    width: 100%;
+  }
+  .about_area-description {
+    width: 100%;
+  }
+}
+/*-----------------------------------
+
+skill
+
+-----------------------------------*/
+#skill h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skill-icon {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.text {
+  text-align: center;
+}
+
+/*-----------------------------------
+
+gallery
+
+-----------------------------------*/
+#gallery img {
+  margin-bottom: 40px;
+}
+
+/*-----------------------------------
+
+contact
+
+------------------------------------*/
+.form {
+  width: 400px;
+  margin: 0 auto 40px;
+}
+
+label {
+  display: block;
+}
+input {
+  display: block;
+  width: 100%;
+}
+textarea {
+  display: block;
+  width: 100%;
+}
+.form-content {
+  margin-bottom: 16px;
+}
+button {
+  display: block;
+  background-color: gray;
+  color: white;
+  width: 250px;
+  text-align: center;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+/*-----------------------------------
+
+footer
+
+-----------------------------------*/
+
+footer {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
